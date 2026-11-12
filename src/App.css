@@ -1,0 +1,46 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  font-family: Arial, sans-serif;
+}
+
+.welcome-card {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 50px 70px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+.welcome-card h1 {
+  font-size: 45px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.welcome-card p {
+  font-size: 18px;
+  color: #d6d6d6;
+  margin-bottom: 30px;
+}
+
+.welcome-card button {
+  padding: 12px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  background: #61dafb;
+  color: #141e30;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.welcome-card button:hover {
+  transform: scale(1.08);
+  background: white;
+}
